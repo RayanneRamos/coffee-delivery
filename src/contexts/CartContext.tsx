@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-import { ReactNode, createContext, useState } from 'react'
+import { ReactNode, createContext, useEffect, useState } from 'react'
 import { Coffee } from '../pages/Home/components/CoffeeCard'
 import { produce } from 'immer'
 
@@ -22,6 +22,8 @@ interface CartContextType {
 interface CartContextProviderProps {
   children: ReactNode
 }
+
+const COFFEE_ITEMS_STORAGE_KEY = 'coffeeDelivery:cartItems'
 
 export const CartContext = createContext({} as CartContextType)
 
@@ -80,6 +82,10 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
 
     setCartItems(newCart)
   }
+
+  useEffect(() => {
+    localStorage.setItem(COFFEE_ITEMS_STORAGE_KEY, JSON.stringify(cartItems))
+  }, [cartItems])
 
   return (
     <CartContext.Provider

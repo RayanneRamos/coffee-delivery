@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.0.1",
     "immer": "^9.0.21",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

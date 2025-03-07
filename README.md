@@ -16,6 +16,13 @@
 
 [Coffee Delivery](https://coffee-delivery-miy8yv6tf-rayanneramos.vercel.app/) é o segundo desafio desenvolvido durante o bootcamp ignite da [Rocketseat](https://www.rocketseat.com.br/) que foca nas tecnologias ReactJS, React Native e NodeJS. Consiste em criar uma landing page de uma cafeteria, que tem as funcionalidades de adicionar no carrinho os items, remover, preencher o endereço com validação dos campos e manipulação de dados no projeto.
 
+## 🌟 Funcionalidades
+
+1. **Carrinho de compras**: permitindo adicionar e remover itens facilmente 
+2. **Formulário de endereço**: com validação de campos para garantir que os dados sejam inseridos corretamente 
+3. **Manipulação de dados**: como adição, remoção de itens e verificação de validação no preenchimento de informações
+4. **Design intuitivo**: proporcionando uma boa experiência do usuário
+
 ## 🧪 Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

@@ -23,7 +23,7 @@
 3. **Manipulação de dados**: como adição, remoção de itens e verificação de validação no preenchimento de informações
 4. **Design intuitivo**: proporcionando uma boa experiência do usuário
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
